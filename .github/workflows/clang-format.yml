@@ -9,5 +9,6 @@ jobs:
       with:
         source: '.'
         extensions: 'cs'
-        clangFormatVersion: 14
-        style: microsoft
+        clangFormatVersion: 12
+        inplace: True
+        style: Microsoft
