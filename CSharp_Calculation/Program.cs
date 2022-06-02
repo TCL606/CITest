@@ -2,8 +2,7 @@
 
 namespace CSharp_Calculation
 {
-    public class Program
-    {
+    public class Program{
         static void Main(string[] args)
         {
  int num1 = 2, num2 = 1;
