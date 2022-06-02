@@ -9,5 +9,5 @@ jobs:
       with:
         source: '.'
         extensions: 'cs'
-        clangFormatVersion: 12
+        clangFormatVersion: 14
         inplace: False
