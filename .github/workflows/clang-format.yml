@@ -4,9 +4,11 @@ jobs:
   clang-format-checking:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: jidicula/clang-format-action@v4.5.0
-        with:
-          clang-format-version: '13'
-          check-path: '.'
-          fallback-style: 'Microsoft' # optional
+    - uses: actions/checkout@v2
+    - uses: DoozyX/clang-format-lint-action@v0.13
+      with:
+        source: '.'
+        extensions: 'cs'
+        clangFormatVersion: 14
+        inplace: True
+        style: Microsoft
