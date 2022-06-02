@@ -2,16 +2,14 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using CSharp_Calculation;
 using System;
 
-namespace Csharp_Test
-{
-    [TestClass]
-    public class TestOperation
+namespace Csharp_Test{
+    [TestClass] public class TestOperation
     {
         [TestMethod]
         public void TestAdd()
         {
             Random rand = new Random();
-            int num1 = rand.Next();
+               int num1 = rand.Next();
             int num2 = rand.Next();
             int res = num1 + num2;
             var addOp = new Add<int>();
