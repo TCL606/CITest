@@ -14,6 +14,6 @@ jobs:
         with:
           dotnet-version: ${{ matrix.dotnet-version }}
       - name: Build
-        run: dotnet build ./CSharp_Calculation/CSharp_Calculation.csproj --configuration Release --no-restore
+        run: dotnet build ./CSharp_Calculation/CSharp_Calculation.csproj --configuration Release
       - name: Test
-        run: dotnet test ./Csharp_Test/Csharp_Test.sln --no-restore --verbosity normal
+        run: dotnet test ./Csharp_Test/Csharp_Test.sln --verbosity normal
