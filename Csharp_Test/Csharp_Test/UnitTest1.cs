@@ -5,8 +5,7 @@ using System;
 namespace Csharp_Test{
     [TestClass] public class TestOperation
     {
-        [TestMethod]
-        public void TestAdd()
+        [TestMethod] public void TestAdd()
         {
             Random rand = new Random();
                int num1 = rand.Next();
