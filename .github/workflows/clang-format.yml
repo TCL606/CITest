@@ -10,5 +10,4 @@ jobs:
         source: '.'
         extensions: 'cs'
         clangFormatVersion: 12
-        inplace: True
-        style: Microsoft
+        inplace: False
