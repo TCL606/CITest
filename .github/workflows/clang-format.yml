@@ -5,7 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: RafikFarhad/clang-format-github-action@v2.1.0
+      - uses: jidicula/clang-format-action@v4.5.0
         with:
           sources: "**/*.cs"
           style: Microsoft
+          clang-format-version: '13'
